@@ -21,11 +21,11 @@ def chat():
 
         # OpenAI API istek gönderme
         response = openai.ChatCompletion.create(
-            model="text-davinci-003",  # Modeli belirtin
+            model="gpt-3.5-turbo",  # Modeli belirtin
             messages=[{"role": "user", "content": user_message}],  # Kullanıcı mesajını bu formatta gönderin
             max_tokens=350,
             temperature=0.7
-        )
+        )   
 
         # OpenAI API yanıtını yazdır
         print(response)
