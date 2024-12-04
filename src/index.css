@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* App.css veya index.css */
+
+::-webkit-scrollbar {
+    width: 12px; /* Scroll bar genişliği */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: gray; /* Track arka plan rengi */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Scroll bar rengi */
+    border-radius: 10px; /* Köşe yuvarlama */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Hover rengi */
+  }
